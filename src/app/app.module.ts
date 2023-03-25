@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigatorComponent } from './navigator/navigator.component';
 import { HomeComponent } from './home/home.component';
-import { MoviesModule } from './movies/movies.module';
 
 @NgModule({
   declarations: [
