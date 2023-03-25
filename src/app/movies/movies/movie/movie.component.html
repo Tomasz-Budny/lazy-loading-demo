@@ -1,1 +1,6 @@
-<p>movie works!</p>
+<ng-container *ngIf="fakeHttp$ | async as data">
+    <article>
+        <h2>Movie #{{data}}</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dignissimos totam error vel, veniam earum. Eum, earum et? Quaerat fugiat tempore quia itaque, aliquid distinctio exercitationem, dolore expedita reprehenderit asperiores assumenda impedit a recusandae sed non pariatur eveniet, consequatur reiciendis. Molestiae qui debitis quas exercitationem ipsam vitae pariatur natus neque.</p>
+    </article>
+</ng-container>
